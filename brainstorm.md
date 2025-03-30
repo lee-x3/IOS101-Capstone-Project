@@ -1,7 +1,3 @@
----
-title: 
-
----
 
 IOS 101 Capstone Project- Brainstorming
 ===
