@@ -105,7 +105,7 @@ Mood Journal is a mobile app that helps users track their daily moods, discover 
 ## Wireframes
 
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://private-user-images.githubusercontent.com/181687640/428407871-0fd15755-c391-4e3b-9065-efa142cb1451.png" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
