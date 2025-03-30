@@ -1,7 +1,7 @@
 IOS 101 Capstone Project - README Template
 ===
 
-# Personal Anime Tracker
+# Mood Journal
 
 ## Table of Contents
 
@@ -14,16 +14,16 @@ IOS 101 Capstone Project - README Template
 
 ### Description
 
-Anime Tracker is a mobile app that helps anime fans track their watch progress, discover new shows, and organize their watchlists. Users can log watched episodes, get personalized recommendations, and receive notifications for new episodes releases.
+Mood Journal is a mobile app that helps users track their daily moods, discover emotional patterns, and build self-awareness through journaling. Users can log their mood states, write journal entries, visualize their emotional trends, and receive personalized insights based on their mood history. 
 
 ### App Evaluation
 
-- **Category:** Entertainment
-- **Mobile:** Uses camera, mobile notifications for new episodes and suggestions
-- **Story:** Allows user to discover, track, and manage anime they're wsatching or are interested in
-- **Market:** Anime fans who want to organize their watching experience
-- **Habit:** Users can check in after watching episodes, regularly search for new shoes. Users can explore endless anime options
-- **Scope:** Start with core tracking feautres, expandable to social sharing and recommendations
+- **Category:** Mental Health & Wellness
+- **Mobile:** Uses daily mood logging, graphs, and journaling prompts
+- **Story:** Users can track their emotional well-being, recognize patterns, and reflect on their moods
+- **Market:** People looking to improve self-awareness and mental well-being
+- **Habit:** Users check in daily, log their mood, and review patterns over time
+- **Scope:** Start with basic mood logging; expand to insights, AI-generated prompts, and mental wellness tips
 
 ## Product Spec
 
@@ -32,74 +32,75 @@ Anime Tracker is a mobile app that helps anime fans track their watch progress, 
 **Required Must-have Stories**
 
 * Users can create an account and log in
-* Users can search for anime using an API
-* Users can add anime to their watchlist
-* Users can mark episodes as watched
-* Users can get recommendations based on their watch history
-* Userrs can receive notifications when new episodes are released
+* Users record their daily mood using emoji selections
+* Users can track energy levels along with mood
+* Users can write journal entries to accompany mood recordings
+* Users can view weekly and monthly mood trend visualizations
+* Users can review past journal entries
   
 **Optional Nice-to-have Stories**
 
-* Users can rate and review anime
-* Users can follow friends and see what they're watching
-* Users can create custom anime lists (e.g., "Want to Watch," "Favorites")
-* Users can get personalized anime suggestions based on their ratings
-* Users can set reminders for upcoming anime episodes
+* Users can set custom reminders for mood check-ins
+* Users can export their mood data and journal entries
+* Users can identify correlations between activities and mood states
+* Users can add photos to journal entries
+* Users can set goals for emotional wellness
 
 ### 2. Screen Archetypes
 
 - [ ] Login/Sign Up Screen
 * Users create an account or log in
-- [ ] Home Screen (Watchlist & Anime Feed)
-* Displays the user's "Currently Watching" anime and progress
-* Shows recommended anime based on preferences
-- [ ] Search Screen
-* Users can search for anime using an API
-* Displays anime detials when selected
-- [ ] Anime Detail Screen
-* Shoe anime description episode list, and ratings
-* Allows users to add the anime to their watchlist
-- [ ] Episode Tracker Screen
-* Displays episode list
-* Users can mark episodes as watched
+- [ ] Daily Log Screen (Home Screen)
+* Users record their current mood with emoji selection
+* Users track their energy levels
+* Users write quick journal entries
+- [ ] Insights Screen
+* Displays weekly mood trends in chart form
+* Shows monthly mood calendar
+* Presents pattern analysis and correlations
+- [ ] Journal Screen
+* Lists all past journal entries with data and mood indicator
+* Allows filtering and searching of past entries
+- [ ] Profile/Setting Screen
+* User account information
+* Reminder settings
+* App preferences
+* Data export options
 - [ ] Notifications Screen (optional)
-* Shows alearts for new episode releases and recommendations
+* Sends daily notifications based on custom reminders for mood check-ins
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* 📺 Home (Watchlist & Recommendations)
-* 🔍 Search
-* 🔔 Notifications
-* ⚙️ Profile
+* 📝 Daily Log
+* 📊 Insights
+* 📔 Journal
+* 👤 Profile
 
 **Flow Navigation** (Screen to Screen)
 
-- [ ] Login -> Home Screen
-* User logs in or signs up
-* App retrieves the user's watchlist and recommendations
-* Navigates to the Home Screen displaying tracked anime
-- [ ] Home -> Search -> Anime Details
-* User taps on the Search tab
-* User enters an anime name in the search bar
-* App fetches search results using an API
-* User selects and anime from the search results
-* Navigates to the Anime Details screen
-- [ ] Anime Details -> Add to Watchlist -> Episode Tracker
-* User taps "Add to Watchlist"
-* Anime is added to the user's tracked list
-* Button updates to "Tracking"
-* User taps "View Episodes" to navigate to the Episode Tracker screen
-- [ ] Episode Tracker -> Mark Episode as Watched -> Update Progress
-* User taps an episode checkbox to mark it as watched
-* App updates watch progress in the database
-* Progress bar updates dynamically
-* Navigates back to the Home Screen if the user exits
-- [ ] Notifcations -> Anime Details
-* User receives a notifcation about a new episode
-* User taps the notification
-* Navigates to the Anime Details screen to view episode information
+- [ ] Login -> Daily Log Screen
+  * User logs in or signs up
+  * App loads today's entry if already created or displays new entry form
+  * Navigates to the Daily Log Screen for mood recording
+- [ ] Daily Log -> New Entry Detail
+  * User completes quick mood selection
+  * User taps to expand for detailed journaling 
+  * Navigates to full journal entry screen for extended writing
+- [ ] Journal -> Entry Detail
+  * User taps on a past journal entry from the list
+  * App fetches the complete entry with mood data
+  * Navigates to entry detail screen showing full content and context
+- [ ] Insights -> Specific Time Period Analysis
+  * User taps on a specific week or day in the visualization
+  * App generates detailed analysis for the selected period
+  * Displays factors correlated with mood during that time
+- [ ] Profile -> Settings Screens
+  * User taps on settings options
+  * Navigates to specific settings screens (reminders, themes, etc.)
+  * Settings changes apply immediately when toggled
+
 
 ## Wireframes
 
