@@ -48,4 +48,4 @@ IOS 101 Capstone Project- Brainstorming
 * **Scope:** Start with basic mood logging; expand to insights, AI-generated prompts, and mental wellness tips
 
 # The final decision:
-I have chosen the Personal Anime Tracker app for this capstone. I came to this decision based on the data structure. The structure of this app is based on data like anime titles, episodes, and seasons. Users have a specific tasks such as adding animes to a watchlist and mark them as they are watched. Overall, I think anime fans are always highly engaged and actively looking for new anime to watch.
+I have selected the MoodTrackr as my capstone project as it offers both meaningful user value and rich technical challenges. This mood journal addresses genuine mental wellness needs by helping users track emotional patterns, identify triggers, and build self-awareness through data visualization and journaling. 
