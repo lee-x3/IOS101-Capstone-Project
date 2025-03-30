@@ -42,10 +42,10 @@ IOS 101 Capstone Project- Brainstorming
 #### 2. Mood Journal
 * **Category:** Mental Health & Wellness
 * **Mobile:** Uses daily mood logging, graphs, and journaling prompts
-* **Story:** Users can tracker their emotional well-being, recognize patterns, and reflect on their moods
+* **Story:** Users can track their emotional well-being, recognize patterns, and reflect on their moods
 * **Market:** People looking to improve self-awareness and metnal well-being
 * **Habit:** Users check in daily, log their mood, and review patterns over time
 * **Scope:** Start with basic mood logging; expand to insights, AI-generated prompts, and mental wellness tips
 
 # The final decision:
-I have selected the MoodTrackr as my capstone project as it offers both meaningful user value and rich technical challenges. This mood journal addresses genuine mental wellness needs by helping users track emotional patterns, identify triggers, and build self-awareness through data visualization and journaling. 
+I have selected the Mood Journal as my capstone project as it offers both meaningful user value and rich technical challenges. This mood journal addresses genuine mental wellness needs by helping users track emotional patterns, identify triggers, and build self-awareness through data visualization and journaling. 
