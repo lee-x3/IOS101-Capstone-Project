@@ -112,6 +112,16 @@ Below is a rough sketch of the low-fidelity wireframe that I will be using for t
 
 ### [BONUS] Interactive Prototype
 
+### Video Walkthrough
+<div>
+    <a href="https://www.loom.com/share/fc4ff66af1774cc1b2bee34b1d61b273">
+    </a>
+    <a href="https://www.loom.com/share/fc4ff66af1774cc1b2bee34b1d61b273">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/fc4ff66af1774cc1b2bee34b1d61b273-e9bbf2590105c76b-full-play.gif">
+    </a>
+  </div>
+
+
 ## Schema 
 
 [This section will be completed in Unit 9]
