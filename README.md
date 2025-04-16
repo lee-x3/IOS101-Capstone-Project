@@ -54,11 +54,11 @@ Mood Journal is a mobile app that helps users track their daily moods, discover 
 * Users record their current mood with emoji selection
 * Users track their energy levels
 * Users write quick journal entries
-- [ ] Insights Screen
+- [x] Insights Screen
 * Displays weekly mood trends in chart form
 * Shows monthly mood calendar
 * Presents pattern analysis and correlations
-- [ ] Journal Screen
+- [x] Journal Screen
 * Lists all past journal entries with data and mood indicator
 * Allows filtering and searching of past entries
 - [x] Profile/Setting Screen
@@ -75,6 +75,7 @@ Mood Journal is a mobile app that helps users track their daily moods, discover 
 
 * 📝 Daily Log
 * 📊 Insights
+* "" Quotes
 * 📔 Journal
 * 👤 Profile
 
@@ -88,12 +89,12 @@ Mood Journal is a mobile app that helps users track their daily moods, discover 
   * User completes quick mood selection
   * User taps to expand for detailed journaling 
   * Navigates to full journal entry screen for extended writing
-- [ ] Journal -> Entry Detail
+- [x] Journal -> Entry Detail
   * User taps on a past journal entry from the list
   * App fetches the complete entry with mood data
   * Navigates to entry detail screen showing full content and context
-- [ ] Insights -> Specific Time Period Analysis
-  * User taps on a specific week or day in the visualization
+- [x] Insights -> Specific Time Period Analysis
+  * User taps on a specific week or day in the visualization (added mock data only)
   * App generates detailed analysis for the selected period
   * Displays factors correlated with mood during that time
 - [x] Profile -> Settings Screens
